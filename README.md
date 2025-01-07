@@ -1,7 +1,7 @@
 ## This Is A Protected Bot! If You Fork Without Permission Your Bot will Ban Automatically😗
 
 ## For Using This Bot You Need To Subscribe My YouTube Channel.Than Join My Whatsapp group And Send Me Prove I will Give You Access Code.
-## I'm [VEX_ADNAN] Also Know As 𝐋𝐨𝐠 𝐎𝐮𝐭                    Facebook Link 🔗        ([ᴍʀ.ᴀʏᴀɴ](https://www.facebook.com/VEX.ADNAN.404)]🙎🏻‍♂️🖤
+## I'm [VEX_ADNAN] Also Know As 𝐋𝐨𝐠 𝐎𝐮𝐭                    Facebook Link 🔗        ([VEX_ADNAN](https://www.facebook.com/VEX.ADNAN.404)]🙎🏻‍♂️🖤
 
 # 📰 Talking about Information
 <img align="right" width=200px alt="PNG" src="https://i.imgur.com/4IcnUwQ.jpeg" />
