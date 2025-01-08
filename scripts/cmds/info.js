@@ -16,16 +16,17 @@ module.exports = {
 	onStart: async function ({ api, event }) {
 		try {
 			const ArYanInfo = {
-				botname: '⇛⌘ 𝐀𝐃𝐍𝐀𝐍 𝐑𝐎𝐁𝐎𝐓 𝐕 𝟐.𝟎 ⌘⇚',
-				prefix: '.',
-				owner: '𝗩𝗘𝗫_𝗔𝗗𝗡𝗔𝗡',
-				age: '18+',
-				Tiktok: 'vex_adnan404',
+				Botname: '⇛⌘ 𝐀𝐃𝐍𝐀𝐍 𝐑𝐎𝐁𝐎𝐓 𝐕 𝟐.𝟎 ⌘⇚',
+				Prefix: '.',
+				Owner: '𝗩𝗘𝗫_𝗔𝗗𝗡𝗔𝗡',
+				Age: '18+',
+				Tiktok: '@vex_adnan404',
 				Whatsapp: '01853557896',
-				bio: '⎯⃝"🌻আ্ঁই্ঁছি্ঁরে্ঁ নে্ঁকা্ঁমু্ঁ ক্ঁর্ঁতে্ঁ 😼🙄🌺⎯͢⎯⃝🩷🐰',
+				Bio: '⎯⃝"🌻আ্ঁই্ঁছি্ঁরে্ঁ নে্ঁকা্ঁমু্ঁ ক্ঁর্ঁতে্ঁ 😼🙄🌺⎯͢⎯⃝🩷🐰',
 				Relationship: 'ISLAM',
-				Messenger: 'MESSENGER LINK',
-				Instagram: 'INSTAGRAM LINK'
+				Messenger: 'https://m.me/VEX.ADNAN.404',
+				Instagram: 'NONE',
+				Grouplink: 'https://m.me/j/Abbc61JOJV6zfuHs/'
 			};
 
 			const ArYan = 'https://i.imgur.com/4IcnUwQ.jpeg';
@@ -42,16 +43,17 @@ module.exports = {
 
 			const response = `
 • Bot & Owner Info
-╰‣ Bot Name: ${ArYanInfo.botname}
-╰‣ Bot Prefix: ${ArYanInfo.prefix}
-╰‣ Owner: ${ArYanInfo.owner}
-╰‣ Age: ${ArYanInfo.age}
-╰‣ Tiktok: ${ArYanInfo.tiktok}
-╰‣ Whatsapp: ${ArYanInfo.whatsapp}
-╰‣ relationship: ${ArYanInfo.relationship}
-╰‣ bio: ${ArYanInfo.bio}
-╰‣ Messenger: ${ArYanInfo.messenger}
-╰‣ Instagram: ${ArYanInfo.Instagram}`;
+╰‣ Bot Name: ${ArYanInfo.Botname}
+╰‣ Bot Prefix: ${ArYanInfo.Prefix}
+╰‣ Owner: ${ArYanInfo.Owner}
+╰‣ Age: ${ArYanInfo.Age}
+╰‣ Tiktok: ${ArYanInfo.Tiktok}
+╰‣ Whatsapp: ${ArYanInfo.Whatsapp}
+╰‣ relationship: ${ArYanInfo.Relationship}
+╰‣ bio: ${ArYanInfo.Bio}
+╰‣ Messenger: ${ArYanInfo.Messenger}
+╰‣ Instagram: ${ArYanInfo.Instagram}
+╰‣ Grouplink: ${ArYanInfo.Grouplink}`;
 
 			await api.sendMessage({
 				body: response,
@@ -60,7 +62,7 @@ module.exports = {
 
 			fs.unlinkSync(imgPath);
 
-			api.setMessageReaction('🪶', event.messageID, (err) => {}, true);
+			api.setMessageReaction('🐔', event.messageID, (err) => {}, true);
 		} catch (error) {
 			console.error('Error in ArYaninfo command:', error);
 			return api.sendMessage('An error occurred while processing the command.', event.threadID);
