@@ -38,12 +38,12 @@ function getVideoID(url) {
 }
 
 const config = {
-    name: "sing2",
-    author: "Mesbah Saxx", //** consol Modify by vex_adnan**//
+    name: "sing",
+    author: "Mesbah Saxx",
     version: "1.2.0",
     role: 0,
-    description: "",
-    prfix: true,
+    Description: "",
+    prefix: true,
     category: "media",
     countDown: 5,
 };
