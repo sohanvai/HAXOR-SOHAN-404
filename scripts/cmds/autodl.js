@@ -9,7 +9,6 @@ const baseApiUrl = async () => {
 const config = {
   name: "autodl",
   version: "2.0",
-  role: "0",
   author: "Dipto",
   Description: "Auto download video from tiktok, facebook, Instagram, YouTube, and more",
   category: "media",
